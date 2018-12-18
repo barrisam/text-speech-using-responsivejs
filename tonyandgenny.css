@@ -1,0 +1,74 @@
+
+html, body{
+    height: 100%
+  }
+
+.container{
+    width: 100%;
+    background-color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+
+.col1{
+    justify-self: center;
+}
+
+.col2{
+    justify-self: center;
+}
+
+h4{
+    padding: 3px;
+    text-align: center;
+}
+
+#textbox1 {
+    border: 0px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px 200px 200px 9px;
+  -moz-border-radius: 200px 200px 200px 9px;
+  -webkit-border-radius: 200px 200px 200px 9px;
+  margin-left: 150px; 
+  padding:0px;
+  background-color: yellowgreen;
+  }
+
+  #textbox2 {
+    border: 0px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px 200px 200px 9px;
+  -moz-border-radius: 200px 200px 200px 9px;
+  -webkit-border-radius: 200px 200px 200px 9px;
+  margin-left: 150px;
+  padding:0px;
+  background-color: rgb(202, 202, 17);
+  
+  }
+
+  #tony, #genny{
+    text-align: center;
+    padding:5px;
+    padding-top: 40%;
+  }
+  
+  #line1, #line2{
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-bottom: 2px solid rgb(145, 145, 214);
+    width: 250px;
+  
+  }
+  
+  #speakTony, #speakGenny{
+    background-color:rgb(216, 216, 176);
+    padding:5px;
+    outline: solid 0px black;
+    box-shadow: 0px 2px 4px;
+    font-weight: bold;
+  }
